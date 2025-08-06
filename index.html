@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="streaming">
+        <!-- SlideShow -->
+        <div class="streaming__slideshow">
+            <article class="streaming__item">
+                <img src="images/hbo-max.jpg" alt="HBO Max">
+                <h4 class="streaming__description">May 2020</h4>
+            </article>
+
+            <article class="streaming__item">
+                <img src="images/disney-plus.jpg" alt="Disney Plus">
+                <h4 class="streaming__description">November 2019</h4>
+            </article>
+
+            <article class="streaming__item light">
+                <img src="images/netflix.jpg" class="current-img" alt="Netflix">
+                <h4 class="streaming__description current-txt">August 1997</h4>
+            </article>            
+
+            <article class="streaming__item">
+                <img src="images/apple-plus.jpg" alt="Apple+ TV">
+                <h4 class="streaming__description">November 2019</h4>
+            </article>
+
+            <article class="streaming__item">
+                <img src="images/prime-video.jpg" alt="Prime Video">
+                <h4 class="streaming__description">September 2006</h4>
+            </article>
+        </div>
+
+        <div class="streaming__buttons">
+            <button class="previous-btn">
+                <i class="fas fa-arrow-circle-left"></i>
+            </button>
+
+            <button class="next-btn">
+                <i class="fas fa-arrow-circle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
